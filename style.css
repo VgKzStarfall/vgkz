@@ -1,0 +1,67 @@
+/* Minimal shared style for the VVM verification pages. */
+:root {
+    color-scheme: dark;
+    --bg: #101214;
+    --panel: #171b1f;
+    --text: #e6e8ea;
+    --muted: #9aa3ac;
+    --accent: #c8a45c;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 "Segoe UI", system-ui, sans-serif;
+}
+
+header, main, footer {
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+}
+
+header { padding-top: 3rem; }
+
+.org {
+    margin: 0;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    color: var(--accent);
+}
+
+h1 {
+    margin: 0.35rem 0 0.25rem;
+    font-size: 2rem;
+    letter-spacing: 0.01em;
+}
+
+.tagline, .last-updated {
+    margin: 0 0 2rem;
+    color: var(--muted);
+}
+
+h2 {
+    margin: 2.25rem 0 0.5rem;
+    font-size: 1.05rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--accent);
+}
+
+ul { padding-left: 1.15rem; }
+li { margin: 0.3rem 0; }
+
+a { color: var(--accent); }
+
+section { border-top: 1px solid #23282e; }
+section:first-of-type { border-top: 0; }
+
+footer {
+    padding: 3rem 1.25rem 4rem;
+    color: var(--muted);
+    font-size: 0.85rem;
+}
