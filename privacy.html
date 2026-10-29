@@ -1,109 +1,152 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>VVM Privacy Policy — VGKZ</title>
-<meta name="description" content="Privacy policy for VVM, a product of VGKZ, covering Epic Online Services sign-in and game data.">
+<meta name="description" content="Privacy policy for VVM (Việt Vệ Minh), a video game by VGKZ. Covers the data the game collects, how it is used, shared and kept, and how to access or delete it.">
+<link rel="icon" type="image/png" sizes="64x64" href="img/favicon.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
   <p class="org">VGKZ</p>
   <h1>VVM Privacy Policy</h1>
-  <p class="last-updated">Last updated: 27 October 2026</p>
+  <p class="last-updated">Last updated: 28 October 2026</p>
 </header>
 
 <main>
   <section>
-    <h2>1. Who we are</h2>
+    <h2>1. Who we are and how to contact us</h2>
     <p>
-      VVM is developed by VGKZ. This policy describes the data that VVM processes
-      when you play it. Contact: <a href="mailto:vgkzpenman@gmail.com">vgkzpenman@gmail.com</a>.
+      VVM (Việt Vệ Minh) is a video game developed by VGKZ, an independent game developer in Vietnam.
+      This policy describes the personal data that VVM processes when you play it.
+    </p>
+    <p>
+      Contact and data-protection contact: <a href="mailto:vgkzpenman@gmail.com">vgkzpenman@gmail.com</a>.
     </p>
   </section>
 
   <section>
-    <h2>2. Account sign-in through Epic Online Services</h2>
+    <h2>2. What data we collect and how</h2>
     <p>
-      Multiplayer uses Epic Online Services (EOS) for sign-in, session discovery, and peer-to-peer
-      traffic. On first launch, Epic's system browser page asks you to sign in with an Epic Games
-      account and to approve the requested permissions. We request the basic profile only: display
-      name, language, country, and linked account display names.
+      VGKZ does not run servers that receive or store player data. VVM has no analytics, no advertising
+      identifiers, no crash-report upload, no payment data, no location data, and no contact data.
     </p>
+    <h3>Sign-in with Epic Games</h3>
     <p>
-      We do not receive your Epic Games password. EOS returns an account identifier and a display name.
-      A refresh token stays on your machine so later launches do not ask again. Signing out of Epic
-      Games removes that token.
+      Online play uses Epic Online Services (EOS) and an Epic Games account. When you sign in, VVM requests
+      three permissions: Basic Profile, Friends List, and Online Presence. Through them, the game receives:
     </p>
-  </section>
-
-  <section>
-    <h2>3. Data the game stores on your machine</h2>
     <ul>
-      <li>Your settings, key bindings, and quality options.</li>
-      <li>Loadout, progression, and cosmetic selections for your profile.</li>
-      <li>Log files, which record session events and connection state for diagnosis.</li>
-      <li>The EOS refresh token, described above.</li>
+      <li>your Epic account ID and display name (Basic Profile);</li>
+      <li>your friends list (Friends List);</li>
+      <li>your presence, meaning your online and in-game status (Online Presence).</li>
     </ul>
-    <p>You can delete this data by removing the game's Saved folder.</p>
-  </section>
-
-  <section>
-    <h2>4. Multiplayer data</h2>
+    <p>The game does not receive your Epic Games password.</p>
+    <h3>Data stored on your PC</h3>
+    <p>The game stores the following on your PC, in the game's Saved folder and in the local sign-in cache:</p>
+    <ul>
+      <li>settings, key bindings, and graphics options;</li>
+      <li>loadout, progression, and cosmetic selections;</li>
+      <li>log files with session events and connection state. A log file may contain your display name and the IP address of the host;</li>
+      <li>a sign-in token, so later launches sign you in automatically.</li>
+    </ul>
+    <h3>Multiplayer session data</h3>
     <p>
-      While you play online, the host's machine receives your display name, your in-game actions, and
-      your connection address or EOS peer identity. Session metadata, including the room name, map, and
-      player count, is published to Epic Online Services so other players can find the room.
+      During a multiplayer session, the host player's PC receives the display name, account ID, in-game actions,
+      and network address (IP address or EOS peer ID) of the other players. Other players in the session see your
+      display name and your in-game actions.
+    </p>
+    <p>
+      Session details, meaning the room name, map, player count, and host display name, are published through
+      Epic Online Services so that players can find and join the room.
     </p>
   </section>
 
   <section>
-    <h2>5. Data we do not collect</h2>
+    <h2>3. How we use your data</h2>
+    <p>We use the data only to:</p>
+    <ul>
+      <li>sign you in;</li>
+      <li>run multiplayer sessions;</li>
+      <li>show your friends and your online status, show theirs to you, and send or accept session invites. The friends list is used only for this purpose;</li>
+      <li>keep your settings, loadout, and progress;</li>
+      <li>diagnose connection problems from log files that you choose to send us.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Who we share your data with</h2>
+    <ul>
+      <li>
+        <strong>Other players in your session.</strong> They see your display name and your in-game actions.
+        The host player's PC also receives your account ID and network address, as described in section 2.
+      </li>
+      <li>
+        <strong>Epic Online Services.</strong> VVM uses EOS for sign-in, friends, presence, and session matchmaking.
+        Session details are published through EOS, as described in section 2.
+      </li>
+    </ul>
+    <p>VGKZ does not sell or share your data with anyone else.</p>
     <p>
-      VVM does not collect analytics, advertising identifiers, contacts, location data, or
-      payment data. The game does not read files outside its own installation and Saved folder.
+      Epic Games' handling of your Epic Games account is described in the
+      <a href="https://www.epicgames.com/site/en-US/privacypolicy">Epic Games Privacy Policy</a>.
     </p>
   </section>
 
   <section>
-    <h2>6. Epic Games as a processor</h2>
-    <p>
-      Epic Games processes account, session, and peer traffic data on our behalf under the Epic Online
-      Services terms. Epic Games also processes your Epic Games account data under its own privacy
-      policy, at
-      <a href="https://legal.epicgames.com/en-US/epicgames/privacy-policy">legal.epicgames.com</a>.
-    </p>
+    <h2>5. How long we keep your data</h2>
+    <ul>
+      <li>Data stored on your PC stays there until you delete it or uninstall VVM.</li>
+      <li>Session details exist only while the session is open.</li>
+      <li>Log files that you email to us are kept for at most 90 days, and then deleted. We hold no other copy.</li>
+    </ul>
   </section>
 
   <section>
-    <h2>7. Retention and deletion</h2>
+    <h2>6. How to access or delete your data</h2>
+    <ul>
+      <li>
+        <strong>Data on your PC.</strong> You can open the game's Saved folder to see the local data. To delete it,
+        delete the Saved folder. You can also uninstall VVM.
+      </li>
+      <li>
+        <strong>Epic Games access.</strong> You can revoke VVM's access to your Epic account at any time. Open your
+        Epic Games account settings and go to connected apps.
+      </li>
+      <li>
+        <strong>Requests to us.</strong> Email <a href="mailto:vgkzpenman@gmail.com">vgkzpenman@gmail.com</a> to ask
+        what personal data we hold about you or to request its deletion. We answer within 30 days.
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>7. Data we do not collect</h2>
     <p>
-      Local data stays until you delete it. Session metadata expires on Epic Online Services when the
-      session ends. To request deletion of any data tied to your account identifier, write to the
-      contact address above.
+      VVM does not collect analytics, advertising identifiers, crash reports, payment data, location data, or
+      contacts. VGKZ does not receive or store player data on any server.
     </p>
   </section>
 
   <section>
     <h2>8. Children</h2>
-    <p>
-      VVM is not directed at children under 13. Epic Games applies its own age requirements for
-      Epic Games accounts.
-    </p>
+    <p>VVM is not directed at children under 13.</p>
   </section>
 
   <section>
-    <h2>9. Changes</h2>
+    <h2>9. Changes to this policy</h2>
     <p>
-      We will update this page when the data we process changes, and the date at the top will change
-      with it.
+      We update this policy when the data that VVM processes changes. The date at the top of this page shows
+      when it was last updated.
     </p>
   </section>
 </main>
 
 <footer>
-  <p>&copy; 2026 VGKZ. VVM is a product of VGKZ.</p>
+  <p>&copy; 2026 VGKZ. VVM (Việt Vệ Minh) is a video game by VGKZ.</p>
+  <p><a href="index.html">VVM home</a> · <a href="privacy.html">Privacy policy</a></p>
 </footer>
 </body>
 </html>

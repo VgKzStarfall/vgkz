@@ -1,4 +1,4 @@
-/* Minimal shared style for the VVM verification pages. */
+/* Shared style for the VVM site (home page and privacy policy). No external fonts, no scripts. */
 :root {
     color-scheme: dark;
     --bg: #101214;
@@ -52,10 +52,27 @@ h2 {
     color: var(--accent);
 }
 
+h3 {
+    margin: 1.5rem 0 0.35rem;
+    font-size: 0.95rem;
+    color: var(--text);
+}
+
 ul { padding-left: 1.15rem; }
 li { margin: 0.3rem 0; }
 
 a { color: var(--accent); }
+
+a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 section { border-top: 1px solid #23282e; }
 section:first-of-type { border-top: 0; }
@@ -64,4 +81,142 @@ footer {
     padding: 3rem 1.25rem 4rem;
     color: var(--muted);
     font-size: 0.85rem;
+}
+
+/* Home page hero: full-width cover image with a dark gradient for text contrast. */
+.hero {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    max-width: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 30rem;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(16, 18, 20, 0.25) 0%,
+        rgba(16, 18, 20, 0.70) 55%,
+        rgba(16, 18, 20, 0.97) 100%
+    );
+}
+
+.hero-bg {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 60% 35%;
+}
+
+.hero-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: 6rem 1.25rem 2.5rem;
+}
+
+.hero-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.hero-icon {
+    width: 5rem;
+    height: 5rem;
+    flex: none;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: clamp(1.9rem, 5.5vw, 2.8rem);
+    line-height: 1.15;
+}
+
+.hero h1 span {
+    font-size: 0.6em;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: var(--muted);
+}
+
+.hero .tagline {
+    margin: 1rem 0 0;
+    max-width: 36rem;
+    font-size: 1.1rem;
+    color: var(--text);
+}
+
+.badges {
+    list-style: none;
+    padding: 0;
+    margin: 1.25rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.badges li {
+    margin: 0;
+    padding: 0.3rem 0.65rem;
+    border: 1px solid rgba(200, 164, 92, 0.55);
+    background: rgba(16, 18, 20, 0.6);
+    color: var(--text);
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.badges li.status {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+/* Screenshot gallery: one column on mobile, two on desktop; the odd last image spans both. */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.gallery figure { margin: 0; }
+
+.gallery img {
+    border: 1px solid #23282e;
+    border-radius: 2px;
+}
+
+@media (min-width: 40rem) {
+    .gallery {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .gallery figure:last-child:nth-child(odd) {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (max-width: 40rem) {
+    .hero { min-height: 26rem; }
+
+    .hero-inner { padding-top: 4rem; }
+
+    .hero-icon {
+        width: 4rem;
+        height: 4rem;
+    }
 }
