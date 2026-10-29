@@ -6,6 +6,8 @@
     --text: #e6e8ea;
     --muted: #9aa3ac;
     --accent: #dc143c;
+    --page: 72rem;
+    --measure: 46rem;
 }
 
 * { box-sizing: border-box; }
@@ -18,7 +20,8 @@ body {
 }
 
 header, main, footer {
-    max-width: 46rem;
+    width: 100%;
+    max-width: var(--page);
     margin: 0 auto;
     padding: 0 1.25rem;
 }
@@ -58,6 +61,7 @@ h3 {
     color: var(--text);
 }
 
+p, ul { max-width: var(--measure); }
 ul { padding-left: 1.15rem; }
 li { margin: 0.3rem 0; }
 
@@ -122,7 +126,8 @@ footer {
 .hero-inner {
     position: relative;
     z-index: 1;
-    max-width: 46rem;
+    width: 100%;
+    max-width: var(--page);
     margin: 0 auto;
     padding: 6rem 1.25rem 2.5rem;
 }
@@ -196,6 +201,9 @@ footer {
 .gallery figure { margin: 0; }
 
 .gallery img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
     border: 1px solid #23282e;
     border-radius: 2px;
 }
@@ -224,7 +232,13 @@ footer {
 .gameplay-video {
     display: block;
     width: 100%;
+    max-width: 100%;
+    margin-top: 1rem;
     height: auto;
     border-radius: 6px;
     background: #000;
+}
+
+@media (min-width: 64rem) {
+    .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
 }
