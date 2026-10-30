@@ -1,0 +1,14 @@
+{
+  "releases": [
+    {
+      "version": "0.1.0",
+      "buildStamp": "20261030-1030",
+      "date": "2026-10-30",
+      "entries": [
+        "Install and update the game from one window.",
+        "A dropped download resumes where it stopped.",
+        "REPAIR checks the installed files and restores the damaged ones."
+      ]
+    }
+  ]
+}

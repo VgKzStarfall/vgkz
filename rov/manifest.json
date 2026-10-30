@@ -1,0 +1,1037 @@
+{
+  "version": "0.1.0",
+  "buildStamp": "20261030-1030",
+  "baseUrl": "https://dl.vgkz.org/rov/pool/",
+  "files": [
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
+      "size": 2232688,
+      "sha256": "441a7ccee2f854352366e783fcb79fe895d09ad4c577689319e1a664f296c4a3"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/MsQuic/v220/win64/msquic.dll",
+      "size": 2547080,
+      "sha256": "27c231d80310ea9005a6b0c17054f28887272723477e7292a7f9d63b6d1579ee"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/NVIDIA/GPUDirect/Win64/dvp.dll",
+      "size": 225720,
+      "sha256": "7623228b0e0e666cb68ff2a698dd938be0fba862ce15e79b47dbe640de49f445"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll",
+      "size": 5799016,
+      "sha256": "ce49be4194706417ccdc57833aec478faa1e08646157688c879fe616d43abd65"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+      "size": 59832,
+      "sha256": "c719a5f165e4afe29e92a7eee9762c2e9f301a177885ab1ab8d2c7f57d4a86bf"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/OpenXR/win64/openxr_loader.dll",
+      "size": 1971640,
+      "sha256": "74d123e1647a2acc2b924c7067a34e7c625bc966c2a0940e6536df5f0c4f6131"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+      "size": 1724856,
+      "sha256": "b8a3e31a6c2d401809bae7aa0fd29f49c2114eeccfba4dc5c7ac8eddbd4b7a98"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+      "size": 48568,
+      "sha256": "6d0e4395bc4d0ef501c3f7f7b4e63fa0cf2ab2ca80328560b7cb10e6d5a171cf"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_api_dump.dll",
+      "size": 8161680,
+      "sha256": "583db3d1acd76363f0f67d9da414dd147ca9ffab4a47824027351b063fe66aea"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_api_dump.json",
+      "size": 13848,
+      "sha256": "9e55221c225dce4b5448bac7dadb7e39fd216f51354dde02e58f950f4a0dd80b"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_crash_diagnostic.dll",
+      "size": 2890128,
+      "sha256": "8e080a40ac452c4b249b9060e2f4c208af9159afba9e75e91d1c55d85e387d04"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_crash_diagnostic.json",
+      "size": 23055,
+      "sha256": "578bde354874789671dee1a96468c965619c9f3ba16cfa65f850e81a80674087"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_gfxreconstruct.dll",
+      "size": 8166288,
+      "sha256": "780c4bcae69a50e38181edfd20a58780fa02539f4ff302c8c4a0e2899ee7a0cb"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_gfxreconstruct.json",
+      "size": 28099,
+      "sha256": "71d4e243a2af74874f4f61378bdfe3753cb01ce5eb9b98400d83612bf882a815"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_profiles.dll",
+      "size": 1485200,
+      "sha256": "9682f7f508855980b9c31147493c962d43a0798c4596870cd7c5dee009859ea2"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_profiles.json",
+      "size": 66696,
+      "sha256": "6095c28691757e083a8c1bef3c69ca76a8b5017e21acaf55d1bc7e82221a0fbe"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_shader_object.dll",
+      "size": 415632,
+      "sha256": "7026da236cecadd40b6a1723d0881349d9471592d98cabd60994f99dc2db3e53"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_shader_object.json",
+      "size": 4455,
+      "sha256": "18ecafc9a65e1b7af8cd0e36dc936026cdb3aed333c4ea5a7c17d6d9465cfaf4"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_synchronization2.dll",
+      "size": 397192,
+      "sha256": "485eb9b7f0320bd1af3af03dbe3a052d6f5e9cda14496bbe1a062d626d501eae"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_synchronization2.json",
+      "size": 1910,
+      "sha256": "a1e980a24be9a16a826b00c27d61b85ee0e2e17226dc9c4e8eec031879e5f26a"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_validation.dll",
+      "size": 19509136,
+      "sha256": "27fc6a4ca52244f18337a652db638865abd679f6e1d129bf4770fd3e6c4f1a60"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_validation.json",
+      "size": 95917,
+      "sha256": "5c464b84457776d92a674de506f7b7a489294583a7d7609f78fcc52bc4406d09"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64/WinPixEventRuntime.dll",
+      "size": 69056,
+      "sha256": "f5f6f69210cc958b92285ff444e2ef48f5c46b4d6470b07960739dbcb6554b54"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
+      "size": 858152,
+      "sha256": "e6ae545b31a5453f1b1002d434cc802a6088cf05c5faa414d7ebe00264161506"
+    },
+    {
+      "path": "Windows/Engine/Config/StagedBuild_RuneOfVoid.ini",
+      "size": 3,
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+    },
+    {
+      "path": "Windows/Engine/Content/Renderer/TessellationTable.bin",
+      "size": 259568,
+      "sha256": "edc4f3b628a139c5e185bbaeca661c95c1f427368d3b92892c5cff36c56dd941"
+    },
+    {
+      "path": "Windows/Engine/Content/Slate/Cursor/invisible.cur",
+      "size": 326,
+      "sha256": "fef3980fa567e9c45d5d8dcaa432a2c1a3f3bb17fe67d7ab198164f56c142aa1"
+    },
+    {
+      "path": "Windows/Engine/Content/SlateDebug/Fonts/LastResort.tps",
+      "size": 930,
+      "sha256": "0f775fa99d05e21d43d2d06d55982b23dcdccdb512a9a5a07aff674f212c41b8"
+    },
+    {
+      "path": "Windows/Engine/Content/SlateDebug/Fonts/LastResort.ttf",
+      "size": 5395052,
+      "sha256": "fff0f8de0b868b964950fe97c9b60f893e9bc85a4f90b3629c5693db058b97b9"
+    },
+    {
+      "path": "Windows/Engine/Extras/GPUDumpViewer/GPUDumpViewer.html",
+      "size": 195428,
+      "sha256": "eb599b5171e99d7c2e35732abf9525baeb39b9c2ac86619522f307c57cc90384"
+    },
+    {
+      "path": "Windows/Engine/Extras/GPUDumpViewer/OpenGPUDumpViewer.bat",
+      "size": 879,
+      "sha256": "e8f7ef9c88697041bd87902b76e52558979ca866c7450b1da108a94a027f441b"
+    },
+    {
+      "path": "Windows/Engine/Extras/GPUDumpViewer/OpenGPUDumpViewer.sh",
+      "size": 2165,
+      "sha256": "1b222b5d5aad6dd9b5b9f0a1c72d38635149540f2c7a368600ec76c1d304390a"
+    },
+    {
+      "path": "Windows/Engine/Plugins/NNE/NNERuntimeORT/Binaries/ThirdParty/Onnxruntime/Win64/onnxruntime.dll",
+      "size": 17339384,
+      "sha256": "eacc4d935137d67ab0cc1b896472d1de551dfc6545ed9ad74ab842400272e036"
+    },
+    {
+      "path": "Windows/Engine/Saved/Config/Windows/Manifest.ini",
+      "size": 25,
+      "sha256": "531bfb7088f544a87ff1268a69a3648dc0648ba49aaca9c3c67d4c4dcf87f088"
+    },
+    {
+      "path": "Windows/Manifest_DebugFiles_Win64.txt",
+      "size": 437,
+      "sha256": "c2bdc29cc1cd40687dba84f7063223305ea7b4bf39fc376c900e579de6185ac4"
+    },
+    {
+      "path": "Windows/Manifest_NonUFSFiles_Win64.txt",
+      "size": 6050,
+      "sha256": "dfb8ccd459928bd608446c7f9ca585866ddbc6c1f9f86d2d00a9bf2a1ebcded7"
+    },
+    {
+      "path": "Windows/Manifest_UFSFiles_Win64.txt",
+      "size": 4437879,
+      "sha256": "0fda97a62ddea35bcdef150cf7c0d85093a4e89a5e1fb4ea39825b5fe1b2c892"
+    },
+    {
+      "path": "Windows/NOTICES.txt",
+      "size": 111,
+      "sha256": "ba49ae5586f817b36a2772269f71f899cb1f54b5f2720fad951319edd5e140b8"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Binaries/Win64/D3D12/x64/D3D12Core.dll",
+      "size": 4831768,
+      "sha256": "f0cbdba3043bc30e2a17dfd7d6c05e61c9c4098eb1d5ee8ccd2ab3f4696e8e20"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Binaries/Win64/D3D12/x64/d3d12SDKLayers.dll",
+      "size": 4943344,
+      "sha256": "180a630861dc88d26db517da787009edf75e4c83309b819814b84b86f8db36c1"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Binaries/Win64/DML/x64/DirectML.dll",
+      "size": 18538488,
+      "sha256": "4e357e48c3fb00e5ac868f2b33ba5576873c013349e2cc1d7a9be0071253ac62"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Binaries/Win64/RuneOfVoid.exe",
+      "size": 384857600,
+      "sha256": "b30853f2e12681c49868c1da0ed0f5259639dec3bacedef4ba1f97617843d967"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Binaries/Win64/RuneOfVoid.pdb",
+      "size": 597258240,
+      "sha256": "fb615931311541f884bb929b116640f85ce30e752a7dab5e132995f7c9bd2701"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Binaries/Win64/tbb12.dll",
+      "size": 342456,
+      "sha256": "c489b6bd4dd2be18d4f8778e3f86caa7672ec8a206c9a54228b3bb60e2923f76"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Binaries/Win64/tbbmalloc.dll",
+      "size": 117176,
+      "sha256": "aca208101bba1e440e6fae6580eedd45508ec405c9674063baf7ca23d29316bd"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/global.ucas",
+      "size": 4200432,
+      "sha256": "94a20fcd87eb3a4fe8c4ecdf4badeac05f403b99eaea3becdaa3f4e840439891"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/global.utoc",
+      "size": 974,
+      "sha256": "1d1cdf0d92aaf31d6351b5f3ff4610b01037101e4e96f642b97b1d2f36ebff89"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk0-Windows.pak",
+      "size": 21474024,
+      "sha256": "bc857c5f558f78c66888339b69e48365c62b7d99cbe47de118481289ebc70eaa"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk0-Windows.ucas",
+      "size": 389883200,
+      "sha256": "51de187dee9856c291fd1ed2fedb0515974bf82eb680b0dc489a970d9975be8f"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk0-Windows.utoc",
+      "size": 304831,
+      "sha256": "fd1918faa27b706ba88b245e4877b0983157b9dd54e88f15f9ca4ea84d292b87"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk0_s1-Windows.pak",
+      "size": 339,
+      "sha256": "1d9b350e6f1e1376bf6268f6838c84f094f402802820dfafd1091acea8412925"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk0_s1-Windows.ucas",
+      "size": 437570480,
+      "sha256": "74f3449dee687623427fe07039a935681e1d0df445d01807db91c6dd2973d45e"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk0_s1-Windows.utoc",
+      "size": 89127,
+      "sha256": "5995c53dc4eb4e2fa7ae71bc495a28bb97b0e5753f2e8c41e8e9affb2e5ab737"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk0_s2-Windows.pak",
+      "size": 339,
+      "sha256": "e9ac893a5fe56117efcc1d94f045a1f1a0fa0856b06ac45e8abfa761cfd81efb"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk0_s2-Windows.ucas",
+      "size": 266786912,
+      "sha256": "110e6e213bbf3b47d954b8636f644598a002b375336cc0654573dbb94b3ec2d8"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk0_s2-Windows.utoc",
+      "size": 127099,
+      "sha256": "c2e1b2daabefbea105593bf5bdc44b3634fbbfbfa83beb54adccdae6973c25d5"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk0_s2optional-Windows.pak",
+      "size": 339,
+      "sha256": "ad6ca2897262262837272f7ce8e407854f6707d0fbc4fff03f7d9b4724331a5e"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk0_s2optional-Windows.ucas",
+      "size": 39637360,
+      "sha256": "f1aa91da067972291502d067beac44b754ce17c42107ae829aa3173e5effc3c3"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk0_s2optional-Windows.utoc",
+      "size": 19132,
+      "sha256": "6ca5ba5ee8e73e402b534b495caec0b4f27e2c122208b9b6cf9febdc9b0b41ba"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk0_s3-Windows.pak",
+      "size": 10773,
+      "sha256": "da9072224f35da673eafed19c807777a3831c7b1ed2a546bb0ec89e35ab181a8"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk0_s3-Windows.ucas",
+      "size": 87840592,
+      "sha256": "6eaf491186f853ada951a1ed396d60d6a7f3bf3705292e20d62634c89f7ec0a9"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk0_s3-Windows.utoc",
+      "size": 83869,
+      "sha256": "26f8723e8e655384cee5ffbf5c0527c21a4730461725df2ae3266cc3c9931893"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk0_s3optional-Windows.pak",
+      "size": 339,
+      "sha256": "99fff5e99ad9e6d9dc1f8b3b0f09472d728dae165078dd20d79d81a3c42595ab"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk0_s3optional-Windows.ucas",
+      "size": 17059920,
+      "sha256": "a2864599997c98e699c1247f981577456e2a20cd170c28fcf6cf121d660622d4"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk0_s3optional-Windows.utoc",
+      "size": 12851,
+      "sha256": "4f5f88a6d6b3051977033f399d8f2c74ce693e4327497fad6740315db52e9a84"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk1-Windows.pak",
+      "size": 4815,
+      "sha256": "bf8eb4afd2eff911d947f21d51723a2b07ac981326613e10f409f892585364b9"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk1-Windows.ucas",
+      "size": 393680736,
+      "sha256": "0ff72eb32579a81ad6142d965bb4ce5b7049106a59b096a4bf1e02a010f806f1"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk1-Windows.utoc",
+      "size": 188877,
+      "sha256": "c690b9a672e810f513887549e0f6f3a746e4ed18bb5705309ea6940e3f162d2e"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk10-Windows.pak",
+      "size": 4834,
+      "sha256": "ce3f6f53fd0f51a346519625cfb4e1261c7588e9f94f9bbc317c0890fe253c9c"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk10-Windows.ucas",
+      "size": 471255328,
+      "sha256": "05d179d72ce9c29a8ca5e57761420c13f72e49fbe9cee64ddf9e8f9d33fb25bd"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk10-Windows.utoc",
+      "size": 306422,
+      "sha256": "b9dfb0bbcd323fa3a0847ca38e6271e7619d3ee2ed62d97e7daf78030a874485"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk11-Windows.pak",
+      "size": 1786,
+      "sha256": "9ed7d54e906747262a3aa8a3163b522714839d06307485e4ecbab9c0f13c8849"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk11-Windows.ucas",
+      "size": 747616096,
+      "sha256": "b36a2a4705448fca97f86414d4d5bde27c45834a7958f0be218bd5f4574a73c9"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk11-Windows.utoc",
+      "size": 380369,
+      "sha256": "429ba5fd709e2ed86d6abb13bf3ad89f8f6c77beaffe5c3d141a73a749a5400f"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk12-Windows.pak",
+      "size": 2362,
+      "sha256": "a04827c0cdbacea4adac51748bbf0de54ea820ad9dcdae272b046b3443015724"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk12-Windows.ucas",
+      "size": 216928640,
+      "sha256": "249395cca1dd6c5c70c46332093161f1fc3adfe0e46c7ac8a631bfa7f3bf6124"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk12-Windows.utoc",
+      "size": 141824,
+      "sha256": "97d6ceeb4e3757279346eae54ab22ae103ce46d0310e243d40e70c11a36f3f1b"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk13-Windows.pak",
+      "size": 5041,
+      "sha256": "94c9456c0704554228714510b6ce779cb5c4d9ac30852cdd64fef52d8e6166bc"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk13-Windows.ucas",
+      "size": 317543312,
+      "sha256": "34c453630142ee10c6f66c6b7ac89d33c72ba8a70e7aa93efe72cc451358032a"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk13-Windows.utoc",
+      "size": 1006186,
+      "sha256": "e08fe0739c6bceaf86b87497831b02f67cf7f0b30ed969ee295cdcd0f88667a9"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk14-Windows.pak",
+      "size": 3849,
+      "sha256": "ec505b61f3d8fbe756a2491a0766cf95b326a9dc41029bc8f21ec3b9ce0033b3"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk14-Windows.ucas",
+      "size": 694913984,
+      "sha256": "b5c8b171a89d1cb26af638356e9448f913f5e2a2080ed3f8ed6232b2fade313d"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk14-Windows.utoc",
+      "size": 215059,
+      "sha256": "859316643c9f37cf60b3bb19c1db95f9f8ec536cbc4c70aa674fb3be1fdac885"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk14optional-Windows.pak",
+      "size": 339,
+      "sha256": "41f1edf726415dde9a29b8ac4ae86f0b4668a8d68099e81936c0d38c6aa2226e"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk14optional-Windows.ucas",
+      "size": 94807072,
+      "sha256": "e314c88c4283eb19a5009083b20d2a0293176f0d28ab2aa623280be6fecf49da"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk14optional-Windows.utoc",
+      "size": 25091,
+      "sha256": "e91c9340c394b44aa7ed72d20e9e5eeb43d663182b413914337094f4d66d7f02"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk15-Windows.pak",
+      "size": 2287,
+      "sha256": "73dd2855b38956fbac1c3df3e2915baa1d9ac0e0ea254fd48a092da22eec274f"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk15-Windows.ucas",
+      "size": 399945504,
+      "sha256": "85bb6b4b9bedc59c552898dc60efe98f6a1b24fc0ef6c02aa52f04036c52dbba"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk15-Windows.utoc",
+      "size": 215260,
+      "sha256": "ca9111d11a68387f70d2757545d11d4a21f4378a1422a96715279f12159e5b2d"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk15optional-Windows.pak",
+      "size": 339,
+      "sha256": "eedce0a468fb24c8e61cbee9f3da43881d73ee45dda0989707d7a1a2f5f1ec4c"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk15optional-Windows.ucas",
+      "size": 133171808,
+      "sha256": "c8d1a1d6c906a5196f2848081db8829140b93224f445ae874174c9d72fe07bba"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk15optional-Windows.utoc",
+      "size": 31439,
+      "sha256": "d0cab48d16b3a278293bdab35d8252fc5365804792bcce23d230ff827fbd8827"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk16-Windows.pak",
+      "size": 4750,
+      "sha256": "92c06849e66ea779a325095e18aa996df7c65c52a76574ffa18f7182dadd663c"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk16-Windows.ucas",
+      "size": 704696784,
+      "sha256": "e61b17b26dc0c5b14733eee33f23540d8d641955d47c88516650981448e48c6e"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk16-Windows.utoc",
+      "size": 523174,
+      "sha256": "1c7b9523f959d6c059a5a38616b534def4a065c696bb589166d2be88afd452dd"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk16optional-Windows.pak",
+      "size": 339,
+      "sha256": "0c3f7660b12766f07696a2879668e3ff937bbdcda7f78141bb527162bc7e8b18"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk16optional-Windows.ucas",
+      "size": 27163952,
+      "sha256": "1d7898ff8617eeca371f1cf08410f5d47a9e032d29e11c8899bc5acf60138515"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk16optional-Windows.utoc",
+      "size": 25258,
+      "sha256": "8bea32067aa1de3af714e925696cef347bab5fdab1a6b2d64245b4ab6c5e6819"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk17-Windows.pak",
+      "size": 10574,
+      "sha256": "50815e462c8da4e809c00a5ae6f0783d99c82773048365e94107ddce55f3abfc"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk17-Windows.ucas",
+      "size": 302155856,
+      "sha256": "fc2561d4a1483d8fb06b5a8166c58d505cd787c950aa3251b87f59fc8b5c024c"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk17-Windows.utoc",
+      "size": 544339,
+      "sha256": "0b35b3fe9c5729d062c63d626d983d4fd32edbd4605ec2040e7e890883aa1717"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk2-Windows.pak",
+      "size": 1666,
+      "sha256": "fa08cbdd20ed2783f28e851cf8ad6ddf5f5e360e7fea2375cf13ab85e85d514e"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk2-Windows.ucas",
+      "size": 810342288,
+      "sha256": "1d6acca86378514113a917eca08a8dded322a7918ab66272f0954328080f505b"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk2-Windows.utoc",
+      "size": 339424,
+      "sha256": "6914683a11b23c03255ea81ca43a03dbc70b9197de2cd1b79006472e040d9e1c"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk3-Windows.pak",
+      "size": 1764,
+      "sha256": "6764fcbb772e29d256df8491f0d0f597e85392ec87091cd8298640ceb10e7698"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk3-Windows.ucas",
+      "size": 737725632,
+      "sha256": "7f334eb29ac00eb4e18c8d4ab3868f0395892c2583d13c8707b7a472d74fdc12"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk3-Windows.utoc",
+      "size": 342400,
+      "sha256": "d2e31101315b4b1bee4151b3f9c0e9aab9f06e202a3f936fe48df4d7082e22c1"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk4-Windows.pak",
+      "size": 1758,
+      "sha256": "bb74410be3ee3a2d83c1bc8212522cdc8d00923eaab1c03e3f27b2d93ea82078"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk4-Windows.ucas",
+      "size": 639762432,
+      "sha256": "f72e8fba5d4352aee7c72ebe0248f2a9f327c36452cbc9f3d87c96ff556e0528"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk4-Windows.utoc",
+      "size": 324652,
+      "sha256": "3f08153f02a5884b3653b6b468ffb5caceab21aaea1ea7751e40fd099d74547d"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk5-Windows.pak",
+      "size": 2001,
+      "sha256": "00cb6dde82a5fb14e21971f9e8ac773566940ec0b03bbab6de32b0ac926a467b"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk5-Windows.ucas",
+      "size": 642286928,
+      "sha256": "72b45db3532109e816f5dd1a13e6dc7f413000a011d090ee9e9e3852f0ab7335"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk5-Windows.utoc",
+      "size": 340980,
+      "sha256": "dbba0344f120f70dd667a17630d101da4e54bdc4711336b736968972c6f97800"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk6-Windows.pak",
+      "size": 2001,
+      "sha256": "2298e323fd5f5fe71c65090592c1109a5a62dd0f8dced460fac0d1f2fe1a5c43"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk6-Windows.ucas",
+      "size": 377256512,
+      "sha256": "52ef1aa203d8e33de060901107187138a047d519f24657c789dc4a09f2c01431"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk6-Windows.utoc",
+      "size": 213789,
+      "sha256": "ec45adfe90ddb41453d483ae55d0af2a722586fbb031fcdca53a411459f133b6"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk7-Windows.pak",
+      "size": 1602,
+      "sha256": "b9f6ea5af11602dc5ddf44c1475975639617970a3d6eddf3da31f171a3609181"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk7-Windows.ucas",
+      "size": 443855872,
+      "sha256": "c2ab930d8c416efd12e64effeedadf5e80d2831d6f4094b9e87c791ec6adae44"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk7-Windows.utoc",
+      "size": 250448,
+      "sha256": "03bc3dd659d1cfd2555d302a4542a0164416e168884118f4142ae9624d43b2bb"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk8-Windows.pak",
+      "size": 1560,
+      "sha256": "1046718319f7aa2bb038119e977ad1b4f8ff547f1619921e8106dcece21731d5"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk8-Windows.ucas",
+      "size": 476941232,
+      "sha256": "ae56ed1365a0d8111123e9d96248965455cbec4aa59b0ed491ec11cebc24d041"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk8-Windows.utoc",
+      "size": 226551,
+      "sha256": "5e66e4b5cc7135de58d08f58e064e13944b6efa90be8f88f65a923cc922bfc11"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk9-Windows.pak",
+      "size": 1746,
+      "sha256": "82aa91121a75fa151d4dd9038a6c37d45e6097c3f998e4c14d8431ce7098e1c6"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk9-Windows.ucas",
+      "size": 759769712,
+      "sha256": "364b3ce727c4e61e4b6b2612de37bb43c8fd2cf7ab14d21eb9d258cca9d1ce46"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Paks/pakchunk9-Windows.utoc",
+      "size": 367450,
+      "sha256": "c37554ed1b1f0b3a289eaba9fa3fa0abe236c6c9f66408ac5d7a0ce256f86068"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Content/Splash/Splash.bmp",
+      "size": 498510,
+      "sha256": "33a38caae2cfdcbd7c7744e4166f59e465dccdc45625209bbf5b4805a5a0ba73"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/Ak3DAudioBedMixer.dll",
+      "size": 128816,
+      "sha256": "6c748ed3ed13774a21dcba51d66a6bc5f929c2684ff0c0c3cf34ed8978c9f81b"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkAudioInput.dll",
+      "size": 133936,
+      "sha256": "7634adb9b9bf1aa6efc396426f55cf676c47eb2045ddac2cec86b9b51d556f34"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkCompressor.dll",
+      "size": 168232,
+      "sha256": "f5533b84b9f6be8f8fac717caed0bc9d2c21baf6684507752e99e68e77cb886e"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkDelay.dll",
+      "size": 139056,
+      "sha256": "33c7790571bcdfd99a99f83c50e500e5fea77acc2236000a8eec901825de8412"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkFlanger.dll",
+      "size": 161064,
+      "sha256": "938803bde30a5b4c036d7dd9ed79c762ba4976f47e9e108b50a8fb6abbeb4ced"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkGain.dll",
+      "size": 133424,
+      "sha256": "055dbc15110bc24ceaceb48463ede0de26c9fcc917e8955d2410368c4de3409d"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkGuitarDistortion.dll",
+      "size": 175408,
+      "sha256": "a84432e6f4e2e91bb61bb27d7d4ae24703660f217e58ea1eb4fc64d3231dff9d"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkHarmonizer.dll",
+      "size": 243504,
+      "sha256": "f3a64e8ec3893f83a914b9e2882eb9e1abc6c3fadb36b8ebdf161a81e5ea9e65"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkMatrixReverb.dll",
+      "size": 199976,
+      "sha256": "481e566f162e74e4e7674422208243c289e7c5acbcd93a83d108b4d11fc0c57e"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkMeter.dll",
+      "size": 167216,
+      "sha256": "290a91c24f19b67ff7fdaab0a4005a62c6d5de270b5b7466ea7637da21daa283"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkParametricEQ.dll",
+      "size": 166192,
+      "sha256": "02ac5fdcdb331046c5324b8af0176627a26ce9a8b1fb007e375bb0db7b495799"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkPeakLimiter.dll",
+      "size": 142640,
+      "sha256": "15918c0ac9607c396ddea79fd26dea702d2bd4939598301c666e2d7e5add6787"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkPitchShifter.dll",
+      "size": 169768,
+      "sha256": "84de79b1297cd65ddca6da4da5fdefd226ff7b4b4d37e4332ff466c9f264f7b2"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkRecorder.dll",
+      "size": 132400,
+      "sha256": "5cad140f67dbc275f2ef1fa468407106c3ec0cff6337c9d40abf81867b9f1f5a"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkRecorderADM.dll",
+      "size": 194864,
+      "sha256": "0851c57d9a5eeea7f43e7939ec936fe422ad9d802e0748d70518ee41686c6cf9"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkRoomVerb.dll",
+      "size": 256304,
+      "sha256": "bdd5c30c7956614b62cd8ecf2ba85e196972638ed43fdcf4dc9f69570fbde9d7"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkSidechain.dll",
+      "size": 169776,
+      "sha256": "5a7afc81e19408064cfb5c0fe2ac15456b2f040e7361d63684649015e6278d28"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkSilenceGenerator.dll",
+      "size": 125744,
+      "sha256": "a3493a24c3b134bc58f308f0b2a98b0237c3be4b2b168fac6014e1bdbee82c93"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkSineTone.dll",
+      "size": 133936,
+      "sha256": "1554476e690fbfc33ae663edc498d647ed95e6047e05bb72a76f739f80f7ad87"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkSoundEngineDLL.dll",
+      "size": 3233584,
+      "sha256": "2e30580ff8ccb1b806f2c9268db99d6da34b0ba41d66363a3cab2128ecb827dc"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkStereoDelay.dll",
+      "size": 179504,
+      "sha256": "a52fabf72b66788af7d79cf7c87786f1661fe01da49972e789bf25cfad43d95a"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkSynthOne.dll",
+      "size": 187184,
+      "sha256": "1cf1bbd3adee8c4d14a635fdcfca890083b4f78b79c79455d2e5f89dd9042f36"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkTimeStretch.dll",
+      "size": 253736,
+      "sha256": "dc41952fa086ccc5b6743e21a24e697cd607226e6fb241f5a0be5b473a78a0c9"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkToneGen.dll",
+      "size": 160552,
+      "sha256": "cb85da7fd301f37a51d9732ba75665ec6711196eb662212015df858fd0ad3f19"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/AkTremolo.dll",
+      "size": 158504,
+      "sha256": "5dbf0f7c7973879f1479e865be9bbc81aedc7e5d725ce179821d5864d5801da4"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Plugins/WwiseSoundEngine/ThirdParty/x64_vc170/Profile/bin/WwiseProjectDatabase.dll",
+      "size": 953128,
+      "sha256": "1fa6db9fa1b4ca4b223b7841e1d59dc3dabd0ae0ff8e4118665036d6081c473c"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Config/CrashReportClient/UECC-Windows-912EC38A4110113FEF868C999829ACBE/CrashReportClient.ini",
+      "size": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Config/CrashReportClient/UECC-Windows-FF1E80B84C57A04D8C18E5830A1A462E/CrashReportClient.ini",
+      "size": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Config/Windows/Engine.ini",
+      "size": 111,
+      "sha256": "60a10d753dcfbd25b4d5612cd5a95994dd82143df8e48436f4dd4d02c3a60a2a"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Config/Windows/GameUserSettings.ini",
+      "size": 1564,
+      "sha256": "4ceaea396e4fd4bc08401e8825d63aff3456e47fd0f27a9ceeaffc259e1e272b"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-30CE8E1048E9268E5AFC4C865CE8778E_0000/CrashContext.runtime-xml",
+      "size": 10029,
+      "sha256": "edf272fec2a704b0a2b6b91ead5c39178c76951f84a39bdd27f722493ce1bddb"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-30CE8E1048E9268E5AFC4C865CE8778E_0000/CrashReportClient.ini",
+      "size": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-30CE8E1048E9268E5AFC4C865CE8778E_0000/RuneOfVoid.log",
+      "size": 278196,
+      "sha256": "3449baec6c8ee0faf2f7e968aaf20cccb8279e446e26567a11d3ad163f8635c6"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-30CE8E1048E9268E5AFC4C865CE8778E_0000/UEMinidump.dmp",
+      "size": 528146,
+      "sha256": "8fa7a9e7a70cb72d6dfe9dcda7432ea07adf9d64c91dc997290a54b353fe9d48"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-30CE8E1048E9268E5AFC4C865CE8778E_0001/CrashContext.runtime-xml",
+      "size": 8925,
+      "sha256": "24ff03f62a75ff8bb26768bc17a31ca5e19c4a7f1b004468a8ee5715b983d941"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-30CE8E1048E9268E5AFC4C865CE8778E_0001/CrashReportClient.ini",
+      "size": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-30CE8E1048E9268E5AFC4C865CE8778E_0001/RuneOfVoid.log",
+      "size": 858809,
+      "sha256": "2702da24cd338a28847cc34cde25cfe1dc4d7d6f2890736afe1ffae88f0c8b0b"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-30CE8E1048E9268E5AFC4C865CE8778E_0001/UEMinidump.dmp",
+      "size": 548011,
+      "sha256": "2a62b80d91a1158f1659aa51ca7ddcd19ca2b952ecc831e6122ee4cf343ff8c5"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-912EC38A4110113FEF868C999829ACBE_0000/CrashContext.runtime-xml",
+      "size": 10016,
+      "sha256": "a337e2eef393b9f28069d949dfec39c99999bca2328903d4e5eae7e6fdd95905"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-912EC38A4110113FEF868C999829ACBE_0000/CrashReportClient.ini",
+      "size": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-912EC38A4110113FEF868C999829ACBE_0000/RuneOfVoid.log",
+      "size": 206977,
+      "sha256": "618cfc6af0ddeed7eaad98e23dee237d00ee800f33e55f2e2bac674c85b313cd"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-912EC38A4110113FEF868C999829ACBE_0000/UEMinidump.dmp",
+      "size": 569449,
+      "sha256": "2958176e56dbaa74cc583f131bc8a340d5f61310f3dcd2058830deef93aa962b"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-912EC38A4110113FEF868C999829ACBE_0001/CrashContext.runtime-xml",
+      "size": 8911,
+      "sha256": "6986f1a2531ad81fb15af39f62880938d41cdecd8e0265c852b3166a9c056aaa"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-912EC38A4110113FEF868C999829ACBE_0001/CrashReportClient.ini",
+      "size": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-912EC38A4110113FEF868C999829ACBE_0001/RuneOfVoid.log",
+      "size": 413236,
+      "sha256": "c43d3cfa12b01461aa9f31052a6cb8f24a97821bd394d3e2fb9625f65478c106"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-912EC38A4110113FEF868C999829ACBE_0001/UEMinidump.dmp",
+      "size": 567975,
+      "sha256": "4d5ac57bab94accf2393423efa61cd1a099b81cddaf73357c8107c7c8b3307e6"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-BA983CBB416F5EC6ADA40585089C9A0B_0000/CrashContext.runtime-xml",
+      "size": 9693,
+      "sha256": "391dd1a78142cd2081accf0c394393db6ee56914c3dac65828a9f52475c3407b"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-BA983CBB416F5EC6ADA40585089C9A0B_0000/CrashReportClient.ini",
+      "size": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-BA983CBB416F5EC6ADA40585089C9A0B_0000/RuneOfVoid.log",
+      "size": 217509,
+      "sha256": "82348b747bb63556eaa6d8e69dacddfd8216f99ea2457d9f1c7f6cc37b440881"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-BA983CBB416F5EC6ADA40585089C9A0B_0000/UEMinidump.dmp",
+      "size": 499483,
+      "sha256": "12789359657853f09c854c0451996512f113337cc610b57881e16dbd81495865"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-DF61FB584179AF82C0C094B205A0FB53_0000/CrashContext.runtime-xml",
+      "size": 10028,
+      "sha256": "7f72a6042bb39cf9aa9d2bdb8d5fc8fbea31b03f48a68814e3de8be80c8d4b67"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-DF61FB584179AF82C0C094B205A0FB53_0000/CrashReportClient.ini",
+      "size": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-DF61FB584179AF82C0C094B205A0FB53_0000/RuneOfVoid.log",
+      "size": 233176,
+      "sha256": "0fc362db925afd2e0ae5fba4cbec92ed72a3fb04bb1516dbdf0ba315fa705fed"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-DF61FB584179AF82C0C094B205A0FB53_0000/UEMinidump.dmp",
+      "size": 562560,
+      "sha256": "7d6cc2327e601c9177c55963f9013979c83b03a30998552f424292a6397f1877"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-DF61FB584179AF82C0C094B205A0FB53_0001/CrashContext.runtime-xml",
+      "size": 8922,
+      "sha256": "ffe1501268d8f0d6bfc56d6a864462f7d1a63ac4a11e60fa5ac87897367e16bf"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-DF61FB584179AF82C0C094B205A0FB53_0001/CrashReportClient.ini",
+      "size": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-DF61FB584179AF82C0C094B205A0FB53_0001/RuneOfVoid.log",
+      "size": 413463,
+      "sha256": "e6f908988a927a96630909f73955ebba6254b556e9dba7a299e9faa03bb84dda"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-DF61FB584179AF82C0C094B205A0FB53_0001/UEMinidump.dmp",
+      "size": 578076,
+      "sha256": "75f64230c000ddd6bfc539537e10b9e4c9cb2ace0c392180fd864dbd3d901272"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-FF1E80B84C57A04D8C18E5830A1A462E_0000/CrashContext.runtime-xml",
+      "size": 9702,
+      "sha256": "e2dd39ccd5b7f70d960982b6f7faad4d67f53f7744fee8da92fe1b54ecb02bf0"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-FF1E80B84C57A04D8C18E5830A1A462E_0000/CrashReportClient.ini",
+      "size": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-FF1E80B84C57A04D8C18E5830A1A462E_0000/RuneOfVoid.log",
+      "size": 196515,
+      "sha256": "501e89d95ff76e4a4724cb8641c4dd8a2eed1a386a1eb5f4ff0ac301e2f4378c"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Crashes/UECC-Windows-FF1E80B84C57A04D8C18E5830A1A462E_0000/UEMinidump.dmp",
+      "size": 564839,
+      "sha256": "7b7e445a1b1a8b06bd1d9e3ed23012cfe6aa0393dfda2962d6577f37c938ba3c"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Logs/RuneOfVoid-backup-2026.10.26-14.42.23.log",
+      "size": 221667,
+      "sha256": "8347fbf463a1a6f99f4398d986b7b99a47f4daf86994590057ce0bb1d3f72ce1"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Logs/RuneOfVoid-backup-2026.10.26-15.40.33.log",
+      "size": 48892013,
+      "sha256": "74c42abd38400a762d7cadd358f2bfcf74d45105ca533a48d20d27035984a65e"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Logs/RuneOfVoid-backup-2026.10.28-09.00.34.log",
+      "size": 201096,
+      "sha256": "c5a162c86d37b75b76a2bd3a81ad5eeb4a177ae9083bd716bec0d8a3b91c427a"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/Logs/RuneOfVoid.log",
+      "size": 5896754,
+      "sha256": "91c758261e77717d0ac482b6362bebbbcf6fd7b3a396eff10bc9f11c5648ddbc"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/SaveGames/RuneOfVoidProfileIndex.sav",
+      "size": 2582,
+      "sha256": "b87d302ede06c2cbc22529d759b12f6237780557c60bade9171de1e4db86c6d3"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/SaveGames/RuneOfVoidProfileIndex_Integrity.sav",
+      "size": 48,
+      "sha256": "31ea4d41031f58b665cc54ae209ade81fb246c0cdb46aaae6a34be749e3f2746"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/SaveGames/RuneOfVoidSave.sav",
+      "size": 71994,
+      "sha256": "5a17adc078dda80cdb8b3c994b2970c8c762734361b83e0c1f83b5e6ce7979cd"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/SaveGames/RuneOfVoidSave_before_cloak_clear_20260709_135658.sav",
+      "size": 38488,
+      "sha256": "ec056a8bac2eb1449c7fac8906f016187cf9091fa6d24ba6c0a330ea70d6baab"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/SaveGames/RuneOfVoidSave_before_loadout_authority_repair_20260814_1450.sav",
+      "size": 39467,
+      "sha256": "ad9b8956e854dc3190aefd4de3b1446f1ebec2b0de1fdf76da3fae4bebc160d4"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/SaveGames/RuneOfVoidSave_before_mode_repair_20260923_1255.sav",
+      "size": 58098,
+      "sha256": "92c8a1ab8ae09b3204afb6d2e065e64f48d8b2dd6e2271638a36db519dc2c343"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/SaveGames/RuneOfVoidSave_Integrity.sav",
+      "size": 52,
+      "sha256": "a2bdc96e898b1ef2972e7462a3ec76e5cf75a3d27fddea4cf9d93418edd98824"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/SaveGames/RuneOfVoidSave_P3.sav",
+      "size": 28934,
+      "sha256": "b5da662ee537f6b50738f3bb6974d3c9b9c51bdfc6b72d51f4fac0e42e1b7698"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/SaveGames/RuneOfVoidSave_P3_Integrity.sav",
+      "size": 51,
+      "sha256": "dd8067bd179112a81fe9b88c20625f4d8d4fced0038c11b2c4d92a3bd8c69304"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/SaveGames/SaveSlot_01.sav",
+      "size": 6276,
+      "sha256": "565396f1383387a6d850c44288fc8061984d81cb03c8548a4b0b98ccb22c07f2"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/SaveGames/SaveSlot_Class_Assault.sav",
+      "size": 5608,
+      "sha256": "650b70acf5cfd654f8bfc1eda45518278bdf07ddef4726baa9883bc9e46fbd4e"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/SaveGames/SaveSlot_Class_Heavy.sav",
+      "size": 5302,
+      "sha256": "f65000591f8342f752426cad16d8e485859b4df08a7646fd27d9aadbe15cf8fd"
+    },
+    {
+      "path": "Windows/RuneOfVoid/Saved/SaveGames/SaveSlot_Class_Scout.sav",
+      "size": 4857,
+      "sha256": "4048224ec0d2b43ae82fbb9b5f45af0a129711b2984494d166e9414459069579"
+    },
+    {
+      "path": "Windows/RuneOfVoid.exe",
+      "size": 278016,
+      "sha256": "32c089bdf9398eabe1034d135655db1f8103654e9e8ab7e0115e6df2bb78f48e"
+    }
+  ]
+}

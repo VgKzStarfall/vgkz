@@ -1,0 +1,11 @@
+{
+  "channel": "stable",
+  "version": "0.1.0",
+  "buildStamp": "20261030-1030",
+  "mandatory": false,
+  "patchBytes": 11830145142,
+  "installBytes": 11830145142,
+  "notesUrl": "",
+  "manifestUrl": "manifest.json",
+  "minVersion": "0.1.0"
+}
