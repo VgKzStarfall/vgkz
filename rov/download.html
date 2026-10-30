@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RuneOfVoid — Access</title>
+<style>
+  :root {
+    --ink: #efe6da;
+    --dim: #8d8377;
+    --crimson: #c8323f;
+    --panel: #14100f;
+    --edge: #2a201d;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: radial-gradient(circle at 50% 0%, #241513 0%, #0b0908 65%);
+    color: var(--ink);
+    font: 15px/1.55 "Segoe UI", system-ui, sans-serif;
+  }
+  main {
+    width: min(560px, 92vw);
+    background: var(--panel);
+    border: 1px solid var(--edge);
+    border-top: 3px solid var(--crimson);
+    padding: 32px 34px 30px;
+  }
+  h1 { margin: 0 0 6px; font-size: 20px; letter-spacing: .16em; text-transform: uppercase; }
+  p.lead { margin: 0 0 22px; color: var(--dim); font-size: 13px; }
+  label { display: block; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--dim); margin-bottom: 7px; }
+  input {
+    width: 100%;
+    padding: 11px 13px;
+    background: #0d0b0a;
+    border: 1px solid var(--edge);
+    color: var(--ink);
+    font: inherit;
+  }
+  input:focus { outline: none; border-color: var(--crimson); }
+  button {
+    margin-top: 16px;
+    width: 100%;
+    padding: 12px;
+    background: var(--crimson);
+    border: 0;
+    color: #fff;
+    font: 600 13px/1 "Segoe UI", system-ui, sans-serif;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  button:disabled { background: #3a2a2a; color: var(--dim); cursor: default; }
+  .msg { margin-top: 14px; font-size: 13px; min-height: 20px; }
+  .msg.bad { color: #ff7a7a; }
+  .msg.good { color: #7ddc9a; }
+  .reveal { display: none; margin-top: 22px; padding-top: 20px; border-top: 1px solid var(--edge); }
+  .reveal.on { display: block; }
+  a.dl {
+    display: block;
+    text-align: center;
+    padding: 13px;
+    background: var(--crimson);
+    color: #fff;
+    text-decoration: none;
+    font: 600 13px/1 "Segoe UI", system-ui, sans-serif;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+  }
+  .meta { margin-top: 10px; font-size: 12px; color: var(--dim); word-break: break-all; }
+  footer { margin-top: 24px; font-size: 11px; color: #5d554e; }
+</style>
+</head>
+<body>
+<main>
+  <h1>RuneOfVoid</h1>
+  <p class="lead">Private test build. Enter the access code to unlock the download.</p>
+
+  <label for="code">Access code</label>
+  <input id="code" type="password" autocomplete="off" spellcheck="false" placeholder="code">
+  <button id="go">Unlock</button>
+  <div id="msg" class="msg"></div>
+
+  <div id="reveal" class="reveal">
+    <a id="link" class="dl" href="#">Download launcher</a>
+    <div id="meta" class="meta"></div>
+  </div>
+
+  <footer>Nhập mã truy cập để tải xuống. Mã chỉ dành cho người được mời.</footer>
+</main>
+
+<script>
+(function () {
+  var FORMAT = "rov-gate-1";
+  var codeEl = document.getElementById("code");
+  var goEl = document.getElementById("go");
+  var msgEl = document.getElementById("msg");
+  var revealEl = document.getElementById("reveal");
+  var linkEl = document.getElementById("link");
+  var metaEl = document.getElementById("meta");
+
+  function say(text, kind) {
+    msgEl.textContent = text;
+    msgEl.className = "msg" + (kind ? " " + kind : "");
+  }
+
+  function base64ToBytes(value) {
+    var binary = atob(value);
+    var bytes = new Uint8Array(binary.length);
+    for (var i = 0; i < binary.length; i++) {
+      bytes[i] = binary.charCodeAt(i);
+    }
+    return bytes;
+  }
+
+  function joined(first, second) {
+    var bytes = new Uint8Array(first.length + second.length);
+    bytes.set(first, 0);
+    bytes.set(second, first.length);
+    return bytes;
+  }
+
+  async function unlock() {
+    var code = codeEl.value.trim();
+    if (!code) {
+      say("Enter the access code.", "bad");
+      codeEl.focus();
+      return;
+    }
+    if (!window.crypto || !window.crypto.subtle) {
+      say("This page needs HTTPS or localhost to unlock.", "bad");
+      return;
+    }
+
+    goEl.disabled = true;
+    say("Checking...");
+
+    try {
+      var response = await fetch("gate.bin", { cache: "no-store" });
+      if (!response.ok) {
+        throw new Error("gate file is missing (" + response.status + ")");
+      }
+      var envelope = await response.json();
+      if (envelope.format !== FORMAT) {
+        throw new Error("unknown gate format");
+      }
+
+      var baseKey = await crypto.subtle.importKey(
+        "raw", new TextEncoder().encode(code), "PBKDF2", false, ["deriveKey"]);
+      var key = await crypto.subtle.deriveKey(
+        {
+          name: "PBKDF2",
+          salt: base64ToBytes(envelope.salt),
+          iterations: envelope.iterations || 300000,
+          hash: "SHA-256"
+        },
+        baseKey,
+        { name: "AES-GCM", length: 256 },
+        false,
+        ["decrypt"]);
+
+      var plain = await crypto.subtle.decrypt(
+        {
+          name: "AES-GCM",
+          iv: base64ToBytes(envelope.nonce),
+          additionalData: new TextEncoder().encode(FORMAT),
+          tagLength: 128
+        },
+        key,
+        joined(base64ToBytes(envelope.payload), base64ToBytes(envelope.tag)));
+
+      var info = JSON.parse(new TextDecoder().decode(plain));
+      linkEl.href = info.url;
+      metaEl.textContent = "Version " + info.version + " · " + info.mib + " MB installer";
+      revealEl.className = "reveal on";
+      say("Unlocked. The download link is valid while the passphrase stays the same.", "good");
+    } catch (error) {
+      var text = String(error && error.message ? error.message : error);
+      say(text.indexOf("gate file") === 0 ? text : "Wrong access code.", "bad");
+      revealEl.className = "reveal";
+    } finally {
+      goEl.disabled = false;
+    }
+  }
+
+  goEl.addEventListener("click", unlock);
+  codeEl.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+      unlock();
+    }
+  });
+  codeEl.focus();
+})();
+</script>
+</body>
+</html>

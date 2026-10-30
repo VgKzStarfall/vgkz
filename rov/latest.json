@@ -6,6 +6,7 @@
   "patchBytes": 11830145142,
   "installBytes": 11830145142,
   "notesUrl": "",
-  "manifestUrl": "manifest.json",
+  "manifestUrl": "manifest.enc",
+  "encrypted": true,
   "minVersion": "0.1.0"
 }

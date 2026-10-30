@@ -1,0 +1,8 @@
+{
+  "format": "rov-gate-1",
+  "iterations": 300000,
+  "salt": "1i8JEnzunkJNxwbS6KLwsw==",
+  "nonce": "CMwvx6g1z0hUTriK",
+  "tag": "W5rv9wCf7q3/zyo5U67RXQ==",
+  "payload": "zSSbeDlPDqJAJjcg/+IktF61DCKGXF1HE2HcGRQzPidQx9pWkbI9h+ARvb8GXMF06NgPbnJhLA9VF70xsWe3cgF+rZVkuCBD38I84ycTnadCVkKafde8TOP+MZS72F1/5NoZn4iURwAdGA0="
+}
